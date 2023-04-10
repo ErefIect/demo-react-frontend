@@ -1,0 +1,47 @@
+.login-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 64px); /* 减去头部导航栏的高度 */
+  }
+  
+  .login-card {
+    width: 400px;
+    height: 300px; /* 设置卡片的高度 */
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .login-card:hover {
+    transform: translateY(-5px); /* 鼠标悬停时向上移动 5px */
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .login-form input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077cc;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
